@@ -1,0 +1,14 @@
+import { StyleSheet, ViewStyle, ImageStyle, TextStyle } from 'react-native';
+import Colors from '../../../constants/Colors';
+
+type Styles = {
+  container: ViewStyle;
+};
+
+export const getStyles = (): Styles => {
+  return StyleSheet.create<Styles>({
+    container: {
+      flex: 1,
+    },
+  });
+};
